@@ -1,0 +1,37 @@
+﻿$PBExportHeader$appeongetbrowserversion.srf
+global type appeongetbrowserversion from function_object
+end type
+
+forward prototypes
+global function string appeongetbrowserversion ()
+end prototypes
+
+global function string appeongetbrowserversion ();//==============================================================================
+// 
+//------------------------------------------------------------------------------
+// Function: appeongetbrowserversion()
+//------------------------------------------------------------------------------
+// Description: 
+// 				Returns Internet Explorer version of the client.
+//	
+// Arguments:(None)
+//	
+// Returns:  string
+//------------------------------------------------------------------------------
+// Author:	APPEON		Date: 2005-11
+//------------------------------------------------------------------------------
+// Revision History: 
+//				1.0   Initial version
+//==============================================================================
+
+String strRet
+
+AppeonExtFuncs funs
+funs = Create AppeonExtFuncs
+
+strRet = funs.Of_GetBrowserVersion()
+
+Destroy funs
+Return strRet
+end function
+

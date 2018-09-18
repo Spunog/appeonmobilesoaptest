@@ -1,0 +1,6 @@
+﻿$PBExportHeader$eon_str_cordova_contact_field.srs
+global type eon_str_cordova_contact_field from structure
+	string		s_type
+	string		s_value
+end type
+

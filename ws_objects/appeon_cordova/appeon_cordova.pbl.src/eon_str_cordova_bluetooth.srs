@@ -1,0 +1,9 @@
+﻿$PBExportHeader$eon_str_cordova_bluetooth.srs
+global type eon_str_cordova_bluetooth from structure
+	string		address
+	string		name
+	string		rssi
+	string		advertisement
+	string		status
+end type
+

@@ -1,0 +1,15 @@
+﻿$PBExportHeader$p_soaper_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:soaper.exe,,0,0,1
+CMP:0,0,0,2,0,0
+COM:Soaper
+DES:Test consuming soap service
+CPY:
+PRD:Soaper Test
+PVN:1,0,0,1
+PVS:1.0.0.1
+FVN:1,0,0,1
+FVS:1.0.0.1
+PBD:soaper.pbl,,1
+
+ 

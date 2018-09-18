@@ -1,0 +1,24 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "appeon_cordova.pbl" "";
+@end;
+@begin Objects 
+ "eon_str_cordova_bluetooth.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_contact_address.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_contact_field.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_contact_find.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_contact_name.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_contact_organization.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_contact_urls.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_gps.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_gps_info.srs" "appeon_cordova.pbl";
+ "eon_str_cordova_orientation.srs" "appeon_cordova.pbl";
+ "eon_cordova_base.sru" "appeon_cordova.pbl";
+ "eon_cordova_bluetooth.sru" "appeon_cordova.pbl";
+ "eon_cordova_bluetoothle.sru" "appeon_cordova.pbl";
+ "eon_cordova_contact.sru" "appeon_cordova.pbl";
+ "eon_cordova_fingerprint.sru" "appeon_cordova.pbl";
+ "eon_cordova_gps.sru" "appeon_cordova.pbl";
+ "eon_cordova_orientation.sru" "appeon_cordova.pbl";
+ "eon_cordova_vibration.sru" "appeon_cordova.pbl";
+@end;

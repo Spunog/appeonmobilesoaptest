@@ -1,0 +1,8 @@
+﻿$PBExportHeader$eon_str_cordova_orientation.srs
+global type eon_str_cordova_orientation from structure
+	decimal		magneticHeading
+	decimal		trueHeading
+	decimal		HeadingAccuracy
+	decimal		timestamp
+end type
+

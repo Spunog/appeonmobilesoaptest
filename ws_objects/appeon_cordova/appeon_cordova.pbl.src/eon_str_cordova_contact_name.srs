@@ -1,0 +1,10 @@
+﻿$PBExportHeader$eon_str_cordova_contact_name.srs
+global type eon_str_cordova_contact_name from structure
+	string		s_givenname
+	string		s_formatted
+	string		s_middleName
+	string		s_familyname
+	string		s_honorificPrefix
+	string		s_honorificSuffix
+end type
+

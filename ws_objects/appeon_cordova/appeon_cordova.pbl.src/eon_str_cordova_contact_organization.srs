@@ -1,0 +1,8 @@
+﻿$PBExportHeader$eon_str_cordova_contact_organization.srs
+global type eon_str_cordova_contact_organization from structure
+	string		s_name
+	string		s_department
+	string		s_title
+	string		s_type
+end type
+

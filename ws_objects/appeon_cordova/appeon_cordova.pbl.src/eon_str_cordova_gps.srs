@@ -1,0 +1,7 @@
+﻿$PBExportHeader$eon_str_cordova_gps.srs
+global type eon_str_cordova_gps from structure
+	long		desiredaccuracy
+	long		stationaryradius
+	long		distancefilter
+end type
+

@@ -1,0 +1,9 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "soaper.pbl" "";
+@end;
+@begin Objects 
+ "soaper.sra" "soaper.pbl";
+ "p_soaper_exe.srj" "soaper.pbl";
+ "w_soaper_main.srw" "soaper.pbl";
+@end;

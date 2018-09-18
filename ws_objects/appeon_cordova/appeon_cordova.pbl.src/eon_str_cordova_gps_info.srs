@@ -1,0 +1,13 @@
+﻿$PBExportHeader$eon_str_cordova_gps_info.srs
+global type eon_str_cordova_gps_info from structure
+	long		time
+	decimal { 2 }		speed
+	decimal { 2 }		altitude
+	decimal { 2 }		bearing
+	decimal { 2 }		longitude
+	decimal { 2 }		latitude
+	decimal { 2 }		accuracy
+	string		serviceprovider
+	boolean		debug
+end type
+

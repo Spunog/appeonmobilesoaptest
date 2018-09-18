@@ -1,0 +1,11 @@
+﻿$PBExportHeader$eon_str_cordova_contact_address.srs
+global type eon_str_cordova_contact_address from structure
+	string		s_type
+	string		s_streetaddress
+	string		s_locality
+	string		s_region
+	string		s_postalcode
+	string		s_country
+	string		s_formatted
+end type
+

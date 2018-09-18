@@ -1,0 +1,16 @@
+﻿$PBExportHeader$eon_str_cordova_contact_find.srs
+global type eon_str_cordova_contact_find from structure
+	string		s_contactname
+	string		id
+	eon_str_cordova_contact_field		str_phonenumbers[]
+	eon_str_cordova_contact_field		str_emails[]
+	string		s_photos[]
+	eon_str_cordova_contact_address		str_address[]
+	eon_str_cordova_contact_organization		str_organizations[]
+	string		s_errortext
+	date		d_birthday
+	eon_str_cordova_contact_name		str_contactname
+	string		s_note
+	eon_str_cordova_contact_urls		str_urls[]
+end type
+
